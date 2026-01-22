@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.product_page{
+    padding-block: 150px;
+}
+ .product_page_left_left{
+    max-width: 450px;
+ }
+
+.product_page_left_imgcontainer-one{
+    aspect-ratio: 1 / 1; 
+}
+.product_page_left_imgcontainer-one img{
+    width: 450px;
+    /* height: 100%; */
+    object-fit: contain;
+    padding: 10px;
+}
+.product_page_left_imgcontainer-two{
+    padding: 10px;
+
+}
+.product_page_left_imgcontainer-two img{
+    width: 20%;
+  /* height: 100px; */
+  object-fit: contain;
+}

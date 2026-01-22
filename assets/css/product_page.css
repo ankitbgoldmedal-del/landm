@@ -1,0 +1,566 @@
+.product-page{
+     width: 100%;
+    height: 100vh;
+    color: rgb(107, 107, 107);
+}
+.product-page-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 10px;
+}
+
+/* ======================== Product Top======================== */
+.product-top{
+    width: 90%;
+    
+    /* background-color: aqua; */
+  display: flex;
+    gap: 20px;
+    padding-inline: 20px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+/* ================================================================= */
+.product-top-container{
+   display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+/* ======================== Product Top Left ======================== */
+.product-left{
+    max-width: 310px;
+    /* background-color: cadetblue; */
+    padding: 10px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.product-image-container-one{
+    padding: 10px ;
+    overflow: hidden;
+}
+.product-image-container-one img{
+    width: 100%;
+    /* border-radius: 30px; */
+   
+}
+.product-image-container-two{
+    padding: 10px ;
+    display: flex;
+    gap: 10px;
+}
+.product-image-container-two img{
+     width: 50px;
+}
+
+/* ======================== Product Top Center ======================== */
+.product-center{
+    width: 100%;
+    max-width: 310px;
+    /* background-color: rgb(110, 95, 160); */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 1;
+}
+.product-center h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.product-center-configure{
+    margin-bottom: 20px;
+}
+.product-center-configure > span:nth-child(1){
+    text-decoration: underline;
+    margin-right: 30px;
+}
+.product-center-configure > span:nth-child(2){
+    color: red;
+}
+.product-center-wattage{
+    margin-bottom: 20px;
+}
+.product-center-wattage h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.product-center-wattage input{
+    font-size: 16px;
+}
+.product-center-temperture{
+    margin-bottom: 10px;
+}
+.product-center-temperture h2{
+    font-size: 20px;
+}
+.product-center-temperture > div{
+    display: flex;
+  margin: 5px;
+  gap: 50px;
+}
+.product-center-temperture div>span{
+    background-color: yellow;
+    color: yellow;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.product-center-beam{
+    margin-bottom: 10px;
+}
+.product-center-beam h2{
+    font-size: 20px;
+}.product-center-beam img{
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+}
+.product-center-last{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.product-center-last div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+.product-center-last div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.product-center-last div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-center-last div>button:nth-child(1){
+    background-color: black;
+    color: white;
+    padding: 5px ;
+    border-radius: 20px;
+}
+.product-center-last div>button:nth-child(2){
+    padding: 5px ;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+/* ======================== Product Top Right ======================== */
+.product-right{
+    /* width: 100%; */
+    width: 355px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(221, 218, 218, 0.777);
+    padding-inline: 10px;
+    /* justify-content: space-between; */
+}
+.product-right span:nth-child(1){
+    text-decoration: underline;
+    margin-bottom: 15px;
+    padding-inline: 10px;
+    padding-top: 10px;
+}
+.product-right-top{
+    /* line-height: 1.3; */
+    margin-bottom: 10px;
+    padding-inline: 10px;
+}
+.product-right-top h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.product-right-top p{
+    color: rgb(64, 60, 60);
+    font-weight: 400;
+}
+.product-right-top span{
+    font-weight: 400;
+    text-decoration: underline;
+}
+.product-right-bottom{
+    /* line-height: 0.8; */
+    margin-bottom: 20px;
+    padding-inline: 10px;
+}
+.product-right-bottom p{
+    margin-bottom: 15px;
+}
+.product-right-application{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    gap: 30px;
+    border-bottom: 2px solid rgb(111, 108, 108);
+    margin-bottom: 5px;
+}
+.product-right-info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(111, 108, 108);
+    margin-bottom: 5px;  
+}
+.product-right-download{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(111, 108, 108);
+    margin-bottom: 5px;
+    
+}
+.product-right-request{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(111, 108, 108);
+    margin-bottom: 5px;
+    
+}
+.product-right-most{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(111, 108, 108);
+    margin-bottom: 5px;
+}
+.product-right-button{
+    margin-bottom: 20px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* =============================== Product Meet Atmosphere================= */
+
+.product-meet{
+    width: 90%;
+    /* height: 100vh; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-inline: 20px;
+    margin: 0 auto;
+    margin-bottom: 150px;   
+}
+.product-meet-title{
+  font-size: clamp(25px,5vw,36px);  
+}
+.product-meet>h2{
+     font-size: clamp(25px,5vw,36px); 
+}
+.product-meet-p-one{
+    line-height: 1.5;
+    max-width: 700px;
+    color: rgb(124, 119, 119);
+    font-weight: 400;
+}
+.product-meet img{
+    max-width: 700px;
+    max-height: 400px;
+}
+
+.product-meet-p-two{
+    max-width: 700px;
+    line-height: 1.5;
+    color: rgb(124, 119, 119);
+    font-weight: 400;
+}
+
+
+
+
+/* ============================== Blank Box===================== */
+
+.product-blank-box{
+    width: 90%;
+    height: 60vh;
+    padding-inline: 20px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.product-blank-box h4{
+    margin-bottom: 20px;
+    font-size: clamp(25px,5vw,30px);
+}
+.blank-box{
+    width: 100%;
+    height: 280px;
+    background-color: rgba(210, 205, 205, 0.777);;
+}
+
+/* ============================= Product Question======================== */
+               /* QUESTION */
+.product-question{
+    width: 90%;
+    height: 60vh;
+    padding-inline: 20px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 130px; */
+}
+.product-question-left h1{
+    padding-top: 20px;
+    font-size: clamp(28px,5vw,42px);
+    margin-bottom: 25px;
+}
+.product-question-left p{
+    font-size: large;
+    max-width: 300px;
+    line-height: 1.5;
+    color: rgb(116, 114, 114);
+}
+
+/*  */
+.product-question-right{
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.product-question-right-top{
+    height: 200px;
+}
+.product-question-right p{
+    font-weight: bold;
+}
+
+
+
+
+
+/* =============================Last Box======================== */
+
+.product-lastBox{
+  max-width: 90%;    
+  padding-inline: 20px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-color: rgba(116, 114, 114,0.1);
+  /* padding: 40px; */
+  padding-inline: 10px;
+  border-top: 1px solid #eee;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.product-lastBox-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.product-lastBox-lef .label {
+  font-size: 12px;
+  padding-left: 20px;
+  /* color: #777; */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* SUBSCRIBE */
+.product-subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  padding-inline: 20px
+  /* max-width: 350px; */
+}
+
+.product-subscribe input {
+    background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  flex: 1;
+  font-size: 14px;
+}
+
+.product-subscribe button {
+  border: none;
+  background: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* SITE LINKS */
+.product-lastBox-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.product-lastBox-right-p{
+    margin-right: 20px;
+}
+.produc-lastBox-right ul {
+  list-style: none;
+}
+
+.produc-lastBox-right li {
+  margin-bottom: 6px;
+}
+
+.produc-lastBox-right a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================= Responsive =============================== */
+
+
+
+/* ================== 1080============== */
+@media (max-width: 1080px) {
+    .product-top{
+     display: grid;
+    justify-content: center;
+    }
+    .product-right{ 
+        width: 100%;
+        max-width: 650px;
+        height: 430px;
+        line-height: 1.5;
+    }
+    .product-right span:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .product-right-top{
+        margin-bottom: 5px;
+    }
+    .product-right-top h1{
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .product-right-bottom{
+        margin-bottom: 10px;
+    }
+    .product-right-bottom p{
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .product-right-application{
+      gap: 15px;  
+    }
+    .product-right-button{
+        margin-bottom: 10px;
+    }
+}
+
+
+/* ================================ 786 ============================= */
+@media (max-width: 786px) {
+    .product-right{ 
+        width: 100%;
+        max-width: 650px;
+        height: 460px;
+        line-height: 1.5;
+    }
+    .product-center h1 {
+        font-size: 20px;
+    }
+    .product-center-configure > span:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .product-center-temperture h2 {
+        font-size: 16px;
+    }
+}
+
+/* ========================== 460 ============================ */
+
+@media (max-width: 460px) {
+
+    .product-top-container{
+        display: grid;
+    }
+    .product-right{ 
+        width: 100%;
+        max-width: 320px;
+        height: 550px;
+        line-height: 1.5;
+    }
+    .product-question{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+    .product-question-left{
+       margin-bottom: 50px;
+   }
+   .product-question-right-top{
+    margin-bottom: 50px;
+   } 
+
+    .product-lastBox{
+    height: 265px;
+    max-width: 413px;
+    padding: 10px;
+  }
+  .product-lastBox-left {
+   gap: 0; 
+  }
+  .product-subscribe button{
+    display: none;
+  }
+}
